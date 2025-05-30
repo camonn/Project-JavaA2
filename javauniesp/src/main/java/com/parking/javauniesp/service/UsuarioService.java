@@ -1,5 +1,13 @@
 package com.parking.javauniesp.service;
 
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.parking.javauniesp.model.Usuario;
+import com.parking.javauniesp.repository.UsuarioRepository;
+
 @Service
 public class UsuarioService {
     @Autowired private UsuarioRepository repo;
